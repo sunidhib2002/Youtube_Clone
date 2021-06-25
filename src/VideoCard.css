@@ -1,0 +1,32 @@
+.videoCard{
+    min-width:80px;
+    flex-basis:25%;
+    padding-bottom:40px;
+}
+
+.videoCard__info{
+    display:flex;
+}
+
+.videoCard__text{
+    padding-right:13px;
+    padding-left:10px;
+    padding-top:5px;
+}
+
+.videoCard__text > h4{
+    font-size:15px;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family:"Georgia"; */
+    padding-bottom:10px;
+    font-weight:bolder;
+}
+
+.videoCard__text > p{
+    font-size:14px;
+    color:#73706e;
+   
+    font-weight:bold;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family:"Georgia"; */
+}

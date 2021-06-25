@@ -1,0 +1,17 @@
+.sidebar_subs__title{
+    font-size:14px;
+    font-family: 'Open Sans', sans-serif;
+    color:black;
+    font-weight:bold;
+    margin-left:20px;
+}
+
+.sidebar_subs{
+    padding:5px;
+    display:flex;
+}
+
+.sidebar_subs:hover{
+    background-color:rgb(238, 238, 238);
+    cursor:pointer;
+}
