@@ -2,12 +2,15 @@
     flex:0.8;
     background-color: #f9f9f9;
     /* color:red; */
-    padding:40px 20px;
+    /* padding:1px 20px; */
+    padding-top:1px;
+    padding-left:20px;
+    padding-right:0px;
     padding-bottom: 0;
 }
 
 .RecommendedVideos > h2{
-    margin-left:5px;
+    
     margin-bottom:20px;
 }
 
@@ -15,4 +18,17 @@
     display:flex;
     justify-content:space-around;
     flex-wrap:wrap;
+    padding-top:20px;
+    margin-left:10px;
+}
+
+.videos__header{
+    display:flex;
+    align-items: center;
+    position: sticky; 
+    top: 60px; 
+    z-index: 100;
+    border-top:1px solid #dedede;
+    border-bottom:1px solid #dedede;
+    background-color:white;
 }

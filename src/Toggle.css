@@ -1,0 +1,23 @@
+.toggle{
+    padding:10px;
+}
+
+.toggle__button{
+    border-radius:17px;
+    padding-top:8px;
+    padding-bottom: 8px;
+    font-size:14px;
+    padding-right:10px;
+    padding-left:10px;
+    border:1px solid lightgray;
+}
+
+.toggle__button:hover{
+    background-color:#ebe6e6;
+    cursor:pointer;
+}
+
+.toggle.selected > .toggle__button{
+    color:white;
+    background-color:black;
+}

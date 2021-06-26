@@ -30,3 +30,7 @@
     font-family: 'Open Sans', sans-serif;
     /* font-family:"Georgia"; */
 }
+
+.videoCard:hover{
+    cursor:pointer;
+}
