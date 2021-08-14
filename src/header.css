@@ -39,7 +39,8 @@
     border:none;
     padding:5px;
     font-size:17px;
-    color:#fafafa;
+    background-color:#fafafa;
+    color:black;
 }
 
 .header__inputButton{
